@@ -23,7 +23,7 @@ namespace WpfAppDemoCRUD
             ServiceCollection services = new ServiceCollection();
             services.AddDbContext<ProductDbContext>(option =>
              {
-                 option.UseSqlite("Data Source = Product.db");
+                 option.UseSqlServer("server=DESKTOP-EERLAR5\\SQLEXPRESS;database=database2;Integrated Security=SSPI;");
              }); 
 
             services.AddSingleton<MainWindow>();
