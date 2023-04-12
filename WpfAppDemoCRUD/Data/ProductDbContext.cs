@@ -24,9 +24,9 @@ namespace WpfAppDemoCRUD.Data
         {
             return new Product[]
             {
-                new Product { Id = 1, Name = "Tshirt", Description = "Red", Price = 19.99, Unit =5},
-                new Product { Id = 2, Name = "Tshirt", Description = "Blue Color", Price = 10.99, Unit =50},
-                new Product { Id = 3, Name = "Shirt", Description = "Formal Shirt", Price = 10.99, Unit =25},
+                new Product { Id = 1, Name = "Tshirt", Description = "Red", Price = 19, Unit =5},
+                new Product { Id = 2, Name = "Tshirt", Description = "Blue Color", Price = 10, Unit =50},
+                new Product { Id = 3, Name = "Shirt", Description = "Formal Shirt", Price = 10, Unit =25},
                 new Product { Id = 4, Name = "Socks", Description = "Yellow ", Price = 2, Unit =500},
             };
         }
